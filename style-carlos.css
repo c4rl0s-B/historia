@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #dfe7ff;
+}
+
+header {
+    background: #0037a5;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0 0  10px 0;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    justify-content:space-evenly;
+}
+
+.btn {
+    padding: 10px 25px;
+    background: #0d1b3d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #1a2f6d;
+}
+
+.activo {
+    background: #708cff;
+}
+
+.contenedor {
+    display: flex;
+    grid-template-columns: 250px 1fr 1fr;
+    gap: 20px;
+    padding: 30px;
+}
+
+.autor {
+    background: #5f7ddb;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
+    height: 400px;
+    width: 400px;
+}
+
+.icono {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background: black;
+    border-radius: 50%;
+}
+
+.caja {
+    background: #5f7ddb;
+    color: white;
+    padding: 20px;
+    border-radius: 6px;
+    width: 400px;
+}
+
+.imagen-lado img {
+    width: 100%;
+}
+
+h2{
+    font-size: 30px;
+}

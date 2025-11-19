@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #e7eef7;
+}
+
+header {
+    background: #003c9e;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    background: #1b2252;
+    border-radius: 5px;
+    align-content: space-between;
+    text-align: center;
+}
+
+nav a.active {
+    background: #87a6ff;
+    color: black;
+}
+
+.parte-principal {
+    display: flex;
+    margin-left: 100px;
+    gap: 26px;
+    padding: 50px;
+}
+.informacion-riesgo {
+    margin-top: 30px;
+background-color: #577CE6;
+padding: 10px;
+width: 380px;
+height: 167px;
+color: white;
+ line-height: 1.6;
+ font-size: 17px;
+}
+img {
+    height: 200px;
+    width: 400px;
+}
+.informacion-Vulnerabilidad {
+   line-height: 1.5;  
+ margin-left: 70px;   
+background-color: #577CE6;
+padding: 10px;
+width: 380px;
+color: white;
+height: 400px;
+text-align: start;
+padding: 15px;
+}
+.title {
+    text-align: end;
+}
+.informacion-Vulnerabilidad p {
+    font-size: 20px;
+}
+.name-realizo {
+    margin-left: 50px;
+    background-color: #577CE6;
+    width: 250px;
+    text-align: center;
+}
+.name-realizo img {
+ height: 200px;
+ width: 200px;   
+}
+
+.parte-secundaria {
+    display: flex;
+    margin-left: 100px;
+    gap: 26px;
+    padding: 50px;
+    
+}
+.informacion-secundaria {
+    background-color: #577CE6;
+
+}
+.informacion-1 {
+background-color:#577CE6 ;
+padding: 10px;
+width: 400px;
+height: 200px;
+color: white;
+}
+.informacion-1 p {
+    font-size: 25px;
+    
+}
+.informacion-2 {
+    margin-top: 10px;
+    background-color: #577CE6;
+    padding: 10px;
+    color: white;
+    width: 400px;
+    height: 200px;
+}
+.informacion-2 p {
+    font-size: 25px;
+}
+.name-realizo img {
+ height: 200px;
+ width: 200px;   
+}
+.name-realizo {
+    
+    background-color: #577CE6;
+    width: 250px;
+    text-align: center;
+}
